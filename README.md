@@ -14,4 +14,18 @@ DataProfiler requires Python 3 and the following dependencies:
 - numpy
 
 You can install these dependencies using pip:
-'pip install numpy pandas matplotlib scipy seaborn'
+`pip install numpy pandas matplotlib scipy seaborn`
+
+Once installed, you can use DataProfiler in your Python code as follows:
+```
+import pandas as pd
+import dataprofiler
+
+# Read the CSV file into a pandas DataFrame
+df = pd.read_csv('train.csv')
+
+# Generate a profile report
+dataprofiler.profileReport(df, title='Train data')
+```
+
+This will produce an HTML report titled "Train data" containing insights and visualizations for your train.csv dataset.
