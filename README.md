@@ -11,4 +11,7 @@ DataProfiler requires Python 3 and the following dependencies:
 - matplotlib
 - seaborn
 - scipy
+- numpy
+
 You can install these dependencies using pip:
+'pip install numpy pandas matplotlib scipy seaborn'
