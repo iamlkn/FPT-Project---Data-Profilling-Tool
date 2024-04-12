@@ -3,3 +3,12 @@ DataProfiler is a Python library designed to generate comprehensive statistical 
 
 ## Installation
 To install DataProfiler, simply download the dataprofiler.py file and place it in your desired directory.
+
+## Usage
+DataProfiler requires Python 3 and the following dependencies:
+
+- pandas
+- matplotlib
+- seaborn
+- scipy
+You can install these dependencies using pip:
